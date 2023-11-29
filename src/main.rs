@@ -42,7 +42,7 @@ fn get_cli_args() -> ArgMatches<'static> {
             .required(true)
             .index(1))
         .arg(Arg::with_name("OUTPUT")
-            .help("Sets the input .csv file to use")
+            .help("Sets the output .lng file to use")
             .required(false)
             .default_value("output.lng")
             .index(2))
